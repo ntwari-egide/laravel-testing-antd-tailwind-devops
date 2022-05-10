@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Http\Controllers\CompanyCRUDController;
+use App\Http\Controllers\InventoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,8 @@ use App\Http\Controllers\CompanyCRUDController;
 */
 
 Route::resource('companies', CompanyCRUDController::class);
+
+Route::resource('inventory', InventoryController::class);
 
 Route::get('/', function () {
     return view('welcome');
