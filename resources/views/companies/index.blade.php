@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Laravel 8 CRUD Tutorial From Scratch</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
@@ -17,6 +18,7 @@
 <div class="container mt-32">
 <div class="row">
 <div class="col-lg-12 margin-tb">
+    <i class="fa-thin fa-magnifying-glass"></i>
 <div class="pull-left">
 <h2>Companies management system</h2>
 </div>
