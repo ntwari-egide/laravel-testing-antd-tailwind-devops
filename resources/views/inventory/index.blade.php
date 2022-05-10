@@ -25,7 +25,17 @@
 
     @endcomponent
 
-    <p>Content goes here right now!</p>
+    <div class="flex">
+        <div>
+            @component('components.sidebar')
+            @endcomponent
+        </div>
+        <div class="m-4">
+            <p>Content goes here right now!</p>
+        </div>
+    </div>
+
+    
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>   
